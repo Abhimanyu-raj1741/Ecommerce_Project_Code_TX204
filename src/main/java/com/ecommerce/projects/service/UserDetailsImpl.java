@@ -1,4 +1,4 @@
-package com.ecommerce.projects.security.services;
+package com.ecommerce.projects.service;
 
 import com.ecommerce.projects.model.User;
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -7,9 +7,7 @@ import lombok.NoArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
 
-import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.Objects;
